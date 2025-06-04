@@ -1,0 +1,185 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  padding: 20px;
+}
+
+.app-container {
+  max-width: 500px;
+  margin: auto;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.app-icon {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.app-info h1 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.publisher {
+  color: #aaa;
+  font-size: 14px;
+}
+
+.download-icon {
+  margin-left: auto;
+  font-size: 26px;
+  color: #0af;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.download-icon:hover {
+  transform: scale(1.1);
+  color: #09f;
+}
+
+.app-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+  gap: 10px;
+}
+
+.detail-box {
+  text-align: center;
+  flex: 1;
+}
+
+.detail-box .value {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.detail-box .label {
+  color: #aaa;
+  font-size: 12px;
+}
+
+.divider {
+  width: 1px;
+  height: 30px;
+  background-color: #333;
+}
+
+.event-section {
+  margin-bottom: 30px;
+}
+
+.event-section h2 {
+  margin-bottom: 5px;
+}
+
+.available {
+  color: #0af;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.event-banner {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.event-banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.event-text {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+  text-shadow: 0 0 5px #000;
+}
+
+.event-text .update-title {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.event-text h3 {
+  margin: 5px 0 2px;
+  font-size: 16px;
+}
+
+.new-features h2 {
+  margin-bottom: 10px;
+}
+
+.version {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.update-time {
+  float: right;
+  color: #0af;
+  font-size: 12px;
+}
+
+ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 6px;
+}
+
+/* ==== CSS GỘP MỚI THÊM CHO ẢNH 2–3 ==== */
+.section {
+  margin: 30px 0;
+}
+
+/* Chế độ riêng tư - có khung trắng bo góc */
+.data-privacy {
+  background-color: #111;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 15px 20px;
+}
+
+.data-privacy h2 {
+  margin-top: 0;
+}
+
+.data-privacy ul {
+  margin: 10px 0 0;
+  padding-left: 20px;
+}
+
+/* Thông tin - chia trái phải */
+.info p {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #222;
+  padding: 6px 0;
+  margin: 0;
+}
+
+.info p strong {
+  color: #fff;
+}
+
+.info p:last-child {
+  border-bottom: none;
+}
